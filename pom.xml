@@ -10,11 +10,7 @@
 	<groupId>com.ktg.git</groupId>
 	<artifactId>git-flow</artifactId>
 	<packaging>jar</packaging>
-<<<<<<< HEAD
-	<version>0.0.4</version>
-=======
 	<version>0.0.5</version>
->>>>>>> refs/heads/release-0.0.5
 	<name>git-flow</name>
 	<url>http://maven.apache.org</url>
 

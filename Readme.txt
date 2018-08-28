@@ -1,18 +1,8 @@
-<<<<<<< HEAD
-jgitflow:feature-start
-
-jgitflow:feature-finish
-
-mvn jgitflow:release-start -DdevelopmentVersion=0.0.4-SNAPSHOT -DreleaseVersion=0.0.3
-
-
-=======
 jgitflow:feature-start -DfeatureName=gitflow-feature
 
 jgitflow:feature-finish
 
 mvn jgitflow:release-start -DdevelopmentVersion=0.0.4-SNAPSHOT -DreleaseVersion=0.0.3
->>>>>>> refs/heads/release-0.0.5
 
 jgitflow:release-finish
 
