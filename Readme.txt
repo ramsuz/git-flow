@@ -10,8 +10,4 @@ jgitflow:hotfix-start
 
 jgitflow:hotfix-finish
 
-<<<<<<< HEAD
 jgitflow:build-number
-=======
-jgitflow:build-number
->>>>>>> refs/heads/release-0.0.5
