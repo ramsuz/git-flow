@@ -1,4 +1,4 @@
-jgitflow:feature-start
+jgitflow:feature-start -DfeatureName=gitflow-feature
 
 jgitflow:feature-finish
 
