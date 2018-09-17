@@ -88,3 +88,15 @@ export default class OAuthLauncher {
     return root;
   }
 }
+
+
+aurelia.start().then(() => {
+    /** Loading of Properties */
+    
+    /** Init Of Authentication via SSO */
+    let oAuthLauncher = aurelia.container.get(OAuthLauncher);
+    oAuthLauncher.init().then(data => {
+      let root = data.isAuthenticated ? PLATFORM.moduleName('app') : PLATFORM.moduleName('login');
+      aurelia.setRoot(root);
+    });
+  });
