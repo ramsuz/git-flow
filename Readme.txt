@@ -11,3 +11,5 @@ jgitflow:hotfix-start
 jgitflow:hotfix-finish
 
 jgitflow:build-number
+
+http://zderadicka.eu/starting-with-aurelia-pagination-with-back-and-sort/
